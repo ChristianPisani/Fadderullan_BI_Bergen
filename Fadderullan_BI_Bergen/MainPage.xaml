@@ -13,6 +13,8 @@
 
 	<local:MapsPage></local:MapsPage>
 
+	<local:SOSPage></local:SOSPage>
+	
 	<ContentPage Title="Kontakt" Icon="ic_mail_outline">
 		<ContentPage.Content>
 			<Label Text="Kontakt">

@@ -41,6 +41,9 @@
     <EmbeddedResource Include="DetailView.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="SOSPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -61,6 +64,9 @@
       <DependentUpon>DetailView.xaml</DependentUpon>
     </Compile>
     <Compile Include="FadderProfil.cs" />
+    <Compile Include="SOSPage.xaml.cs">
+      <DependentUpon>SOSPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
