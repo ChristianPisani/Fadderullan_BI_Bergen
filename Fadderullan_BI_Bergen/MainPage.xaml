@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Fadderullan_BI_Bergen" x:Class="Fadderullan_BI_Bergen.MainPage" 
+	Title="Fadderullan">
+
+	<local:EventsPage></local:EventsPage>
+
+	<ContentPage Title="Nyheter" Icon="ic_notifications_none">
+		<ContentPage.Content>
+			<Label Text="Nyheter">
+			</Label>
+		</ContentPage.Content>
+	</ContentPage>
+
+	<local:MapsPage></local:MapsPage>
+
+	<ContentPage Title="Kontakt" Icon="ic_mail_outline">
+		<ContentPage.Content>
+			<Label Text="Kontakt">
+			</Label>
+		</ContentPage.Content>
+	</ContentPage>
+	
+	<ContentPage Title="Instagram">
+		<ContentPage.Content>
+			<Label Text="Instagram">
+			</Label>
+		</ContentPage.Content>
+	</ContentPage>
+	<ContentPage Title="Facebook">
+		<ContentPage.Content>
+			<Label Text="Facebook">
+			</Label>
+		</ContentPage.Content>
+	</ContentPage>
+	
+	<ContentPage Title="Spotify">
+		<ContentPage.Content>
+			<Label Text="Spotify">
+			</Label>
+		</ContentPage.Content>
+	</ContentPage>
+	
+	<ContentPage Title="Sponsorer">
+		<ContentPage.Content>
+			<Label Text="Sponsorer">
+			</Label>
+		</ContentPage.Content>
+	</ContentPage>
+	
+	<ContentPage Title="Om oss">
+		<ContentPage.Content>
+			<Label Text="Om oss">
+			</Label>
+		</ContentPage.Content>
+	</ContentPage>
+	
+</TabbedPage>
