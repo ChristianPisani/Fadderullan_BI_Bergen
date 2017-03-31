@@ -46,5 +46,9 @@
 	<string>Fadderullan would like to use your location</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Fadderullan is using your location</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
 </dict>
 </plist>

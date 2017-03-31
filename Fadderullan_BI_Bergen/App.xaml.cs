@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using Microsoft.WindowsAzure.MobileServices;
 
 namespace Fadderullan_BI_Bergen {
 	public partial class App : Application {
