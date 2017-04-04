@@ -1,6 +1,8 @@
 ﻿using Xamarin.Forms;
 using Microsoft.WindowsAzure.MobileServices;
 
+using PushNotification.Plugin;
+
 namespace Fadderullan_BI_Bergen {
 	public partial class App : Application {
 		public App() {
@@ -11,6 +13,7 @@ namespace Fadderullan_BI_Bergen {
 
 		protected override void OnStart() {
 			// Handle when your app starts
+			//CrossPushNotification.Current.Register();
 		}
 
 		protected override void OnSleep() {
